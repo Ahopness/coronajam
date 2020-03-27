@@ -9,10 +9,32 @@ ModelImporter:
     400002: //RootNode
     2100000: Tile1.002
     2100002: Tile1
+    2100004: Tile1.012
+    2100006: Tile1.011
+    2100008: Tile1.008
+    2100010: Tile1.008_NONE
+    2100012: Tile1.006
+    2100014: Tile1.003
+    2100016: Tile1.009
+    2100018: spr_carpet
+    2100020: spr_sofas.001
+    2100022: Material
+    2100024: Tile1.001
+    2100026: Tile1.007
+    2100028: spr_sofas
+    2100030: Tile1.004
+    2100032: Tile1.007_NONE
+    2100034: None
+    2100036: Tile1.005
     2300000: default
     3300000: default
     4300000: default
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 38aef01d6cf2e6147b10def067206b4c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -21,8 +43,73 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Tile1.001
+    second: {fileID: 2100000, guid: d62ed9292f2ab304a8d02f0c1d4434c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tile1.002
     second: {fileID: 2100000, guid: 0fcce3fafe28e434db0a86f1ff20fb57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.003
+    second: {fileID: 2100000, guid: 09f0c37be333f874f939284a709bdf37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.004
+    second: {fileID: 2100000, guid: 1860a7139ddc70f4990cd6d47b11a758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.006
+    second: {fileID: 2100000, guid: 69284980000c40642a9387c05402fba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.007
+    second: {fileID: 2100000, guid: f22e39ebf984d66459c20c05fed59d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.008
+    second: {fileID: 2100000, guid: 2a9836f8751a7dd43b0dc209b84fcbe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.008_NONE
+    second: {fileID: 2100000, guid: 25a8259315cb94547a2928b6b40d9878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.009
+    second: {fileID: 2100000, guid: 2038bf2ce5299a34194e9d5ff8b0c0b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.011
+    second: {fileID: 2100000, guid: 9ef8ade732bce1949b883ae7c0f50467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile1.012
+    second: {fileID: 2100000, guid: d51b7aff45914c642bb85bde38666bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_carpet
+    second: {fileID: 2100000, guid: dcf5554edfd575649be614792edd6eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_sofas
+    second: {fileID: 2100000, guid: 20e29424c03e0ca46be8ae369c67acfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_sofas.001
+    second: {fileID: 2100000, guid: bab20dc6543b18248ac0bfc42d4af495, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

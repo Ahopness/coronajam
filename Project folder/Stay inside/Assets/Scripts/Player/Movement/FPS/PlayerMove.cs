@@ -16,9 +16,10 @@ public class PlayerMove : MonoBehaviour {
     public float gorundDistance = 0.5f;
     public LayerMask gorundMaks;
 
-    Vector3 velocity;
-    bool isGrounded;
-    float speed;
+	[Header("Info")]
+    public Vector3 velocity;
+    public bool isGrounded;
+    public float speed;
 
 	void Update () {
         isGrounded = Physics.CheckSphere(groundCheck.position, gorundDistance, gorundMaks);

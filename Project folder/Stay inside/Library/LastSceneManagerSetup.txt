@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/scn_testlab.unity
+- path: Assets/Scenes/scn_day1.unity
   isLoaded: 1
   isActive: 1
